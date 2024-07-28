@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar start */
+#nav{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+#nav li{
+    padding: 20px 12px;
+    cursor: pointer;
+}
+#nav li:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+/* Navbar end */
+/* image-slider-section start */
+#image-slider-section{
+    background-image: url('1.jpg');
+    height: 500px;
+    font-size: 24px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#image-slider-section p{
+    margin-bottom: 24px;
+}
+/* image-slider-section start */
+/* the-band-team start */
+#the-band-team h1{
+    text-align: center;
+    margin: 40px ;
+}
+#the-band-team #we-love{
+    text-align: center;
+    color: grey;
+    font-style: italic;
+}
+#the-band-team p{
+    margin: 10px 300px;
+    text-align: justify;
+}
+/* the-band-team end */
+/* band-section-start */
+#parent-div{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px 300px; */
+    padding: 10px 300px;
+    text-align: center;
+}
+
+.child-div span{
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+.child-div img{
+    border-radius: 10px;
+}
+
+#parent-div div{
+    width: 30%;
+}
+
+/* band-section-end */
+/* tour-dates-start */
+#three-divs{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+#tour-dates{
+    background-color: black;
+    padding: 30px 0px;
+}
+
+#tour-dates h1{
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+    color: rgb(229, 240, 249);
+}
+#tour-dates h2 {
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+
+#tour-dates p {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    color: aliceblue;
+}
+
+#tour-dates #three-divs {
+    background-color: white;
+    width: 70%;
+    color: rgb(0, 0, 0);
+    /* padding: 30px 0px; */
+    margin: auto;
+    
+}
+
+.tour-date-div{
+    font-size: 18px;
+    padding: 10px;
+    color: gray;
+}
+
+.sold-out{
+    background-color: rgb(189, 49, 49);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+#border-top-bottom{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+#alada-design-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#alada-design-3{
+    background-color: black;
+    border-radius: 100%;
+    padding: 5px 10px;
+    color: white;  
+}
+/* tour-dates-end */
+/* Buy tickets start */
+#buy-tickets-div{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.ticket-div{
+    background-color: white;
+    color: black;    
+    width: 25%;
+    margin: 20px 0px;  
+}
+.ticket-div img{
+    height: 175px;
+    width: 236px;
+}
+.common-div{
+    margin: 8px;
+}
+.black-color{
+    color: black !important;
+}
+.button{
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 0px;
+}
+.button:hover{
+    background-color: gray;
+    color: black;
+    cursor:pointer;
+}
+/* Buy tickets end */
+/* Contact start */
+#contact{
+    margin: 20px 0px;
+    padding: 10px;
+}
+#contact h2, #contact-p-tag{
+    text-align: center;
+}
+#contact-parent-div{
+    display: flex;
+    justify-content: space-around;
+}
+.mtb-10{
+    margin: 10px 0px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+input{
+    padding: 10px 5px;
+}
+#form-first-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+#form-first-div input{
+    width: 50%;
+}
+#name-input{
+    margin-right: 3px;
+}
+#third-input-div{
+    margin-top: 10px;
+    text-align: right;
+}
+#message-input-tag{
+    width: 100%;
+}
+/* Contact end */
+/* Map start */
+#map {
+    background-image: url('map.jpg');
+    height: 600px
+}
+#social-media-icons{
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+}
+#powered-by{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+#powered-by a{
+    color: gray;
+
+}
+/* Map end */
